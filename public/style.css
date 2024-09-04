@@ -1,0 +1,812 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.welcomeSection {
+    min-height: 1800px;
+    background-image: url(images/main.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.welcomeSection nav {
+    display: flex;
+   
+}
+.welcomeSection nav ul {
+    display: flex;
+    list-style-type: none;
+   justify-content: space-between;
+   width: 100%;
+   margin: 10px 50px 0px 50px;
+   list-style-type: none; 
+   
+}
+
+.welcomeSection nav ul li a {
+  text-decoration: none;
+  color: rgb(163, 163, 163);
+  
+}
+.welcomeSection h1 {
+    color: rgb(163, 163, 163);
+    font-size: 60px;
+    text-align: center;
+    padding-top: 20%;
+    font-family: 'Tangerine', cursive;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.welcomeSection .aboutSection {
+    height: 320px;
+    padding: 20px;
+    background-color: rgba(8, 7, 7, 0.856);
+    margin-top: 12%;
+    border-radius: 10px;
+    color: rgb(163, 163, 163);
+    display: flex;
+    margin-bottom: 0.5px;
+    
+    
+   
+}
+
+
+
+
+
+
+.welcomeSection a {
+    text-decoration: none;
+}
+
+
+
+.welcomeSection .aboutSection .imgSection {
+    width: 50%;
+    border-radius: 15px;
+}
+.welcomeSection .aboutSection .imgSection img {
+    width: 75%;
+    padding-left: 20px;
+    height: 100%;
+    padding: 20px;
+    border-radius: 15px;
+    
+}
+.welcomeSection .aboutSection .infoSection {
+    font-family: 'Ysabeau Infant', sans-serif;
+    width: 50%;
+    text-align: center;
+    
+}
+.welcomeSection .aboutSection .infoSection h2 {
+    padding: 20px 0px 15px 0px;
+
+    font-family: 'Tangerine', cursive;
+    font-size:40px;
+}
+
+.welcomeSection .aboutSection .infoSection p {
+    font-size: 18px;
+}
+.welcomeSection .aboutSection .infoSection .show {
+    display: none;
+}
+.welcomeSection .aboutSection .infoSection p + p {
+    padding-top: 20px;
+}
+
+
+.welcomeSection .serviceSection {
+    height: 320px;
+    background-color: rgba(36, 32, 32, 0.781);
+    color: rgb(163, 163, 163);
+    display: flex;
+    font-family: 'Ysabeau Infant', sans-serif;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 0.5px;
+
+}
+
+
+
+
+.welcomeSection .serviceSection .infoSection {
+    width: 50%;
+    text-align: center;
+}
+
+.welcomeSection .serviceSection .imgSection {
+    width: 50%;
+}
+.welcomeSection .serviceSection .imgSection img {
+    width: 95%;
+    padding-left: 5%;
+    padding: 20px;
+    height: 100%;
+    border-radius: 15px;
+    
+}
+.welcomeSection .serviceSection .infoSection h2 {
+    padding: 30px 0px 15px 0px;
+    font-family: 'Tangerine', cursive;
+    font-size: 40px;
+}
+.welcomeSection .serviceSection .infoSection ul {
+    list-style-type: none;
+}
+
+.welcomeSection .meetSection {
+    height: 320px;
+    background-color: rgba(8, 7, 7, 0.856);
+    color: rgb(163, 163, 163);
+    display: flex;
+    font-family: 'Ysabeau Infant', sans-serif;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 0.5px;
+
+
+
+
+
+
+
+
+
+
+
+}
+.welcomeSection .meetSection .infoSection  {
+    text-align: center;
+    padding-bottom: 15px;
+   
+    color: rgb(163, 163, 163);
+    width: 50%;
+   
+}
+.welcomeSection .meetSection .infoSection h2 {
+    padding: 30px 0px 15px 0px;
+    font-family: 'Tangerine', cursive;
+    font-size: 40px;
+}
+.welcomeSection .meetSection .infoSection p {
+    font-size: 18px;
+    font-family: 'Ysabeau Infant', sans-serif;
+}
+
+.welcomeSection .meetSection .imgSection {
+    width: 50%;
+}
+.welcomeSection .meetSection .imgSection img {
+    width: 75%;
+    padding-left: 20px;
+    height: 100%;
+    padding: 20px;
+    border-radius: 15px;
+    
+}
+
+.welcomeSection .contactSection {
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.849);
+    display: flex;
+
+    color: rgb(163, 163, 163);
+    display: flex;
+    font-family: 'Ysabeau Infant', sans-serif;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 0.5px;
+
+
+
+
+
+
+
+}
+.welcomeSection .contactSection .imgSection {
+    width: 50%;
+}
+.welcomeSection .contactSection .infoSection {
+    width: 50%;
+    color: rgb(163, 163, 163);
+}
+.welcomeSection .contactSection .infoSection .address  {
+    color: rgb(163, 163, 163);
+    text-align: right;
+    padding: 20px 50px 0px 0px;
+}
+.medaLinks {
+    font-size: 25px;
+    
+    
+}
+.medaLinks ul {
+    display: flex;
+    list-style-type: none;
+   
+}
+.medaLinks ul li {
+    padding: 20px;
+}
+span {
+    color: rgb(163, 163, 163);
+    font-size: 10px; 
+    padding: 0px 0px 15px 30px;
+}
+.map {
+    font-size: 12px;
+    color: rgb(163, 163, 163);
+    
+}
+.map ul {
+   padding: 10px 0px 0px 30px;
+    list-style-type: none;
+}
+.map ul li a {
+    color: rgb(163, 163, 163);
+    text-decoration: none;
+}
+
+
+.about {
+    min-height: 1800px;
+    background-image: url(images/about.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.about .aboutContainer {
+    height: 1000px;
+    width: 40%;
+    
+   margin-left: auto;
+   padding-right: 15%;
+   color: rgb(163, 163, 163);
+   text-align: center;
+
+    
+}
+.about .aboutContainer h2 {
+    font-family: 'Tangerine', cursive;
+    font-size: 65px;
+    text-align: center;
+    padding: 30px;
+}
+.about .aboutContainer p {
+    font-size: 20px;
+    font-family: 'Ysabeau Infant', sans-serif;
+}
+hr {
+    color: rgb(163, 163, 163);
+    width: 50%;
+    margin: 15% 25% 10% 25%;
+}
+ .aboutNav {
+    display: flex;
+    margin-top: 10%;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+.aboutNav p {
+    
+    padding: 30px;
+}
+ .aboutNav a {
+    text-decoration: none;
+    color: rgb(163, 163, 163);
+}
+
+
+.servicesPage {
+    min-height: 1800px;
+    background-image: url(images/services.jpeg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.servicesPage .servicesContainer {
+    text-align: center;
+    color: rgb(163, 163, 163);
+    width: 40%;
+    padding-left: 10%;
+}
+.servicesPage .servicesContainer h2 {
+    font-family: 'Tangerine', cursive;
+    font-size: 65px;
+    text-align: center;
+    padding: 30px;
+}
+.servicesPage .servicesContainer h3 {
+    font-family: 'Tangerine', cursive;
+    font-size: 45px;
+    text-align: center;
+    padding: 30px;
+}
+.servicesPage .servicesContainer p {
+    font-size: 18px;
+    font-family: 'Ysabeau Infant', sans-serif;
+}
+.servicesPage .servicesContainer p strong {
+    padding-top: 10px;
+}
+.team-member {
+    height: 320px;
+    width: 100%;
+    
+    color: rgb(163, 163, 163);
+    display: flex;
+}
+.meet-the-team-section {
+    min-height: 1800px;
+    background-image: url(images/meetBackground.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.meet-the-team-section .container .meet {
+    padding: 0;
+}
+.meet-the-team-section .container {
+    color: rgb(163, 163, 163);
+    font-size: 18px;
+    font-family: 'Ysabeau Infant', sans-serif;
+    text-align: center;
+    
+}
+.meet-the-team-section .container a {
+    text-decoration: none;
+    color: goldenrod;
+}
+.meet-the-team-section .container h2 {
+    font-family: 'Tangerine', cursive;
+    font-size: 65px;
+    text-align: center;
+    padding: 30px;
+}
+.meet-the-team-section .container .team-member {
+    display: flex;
+}
+.meet-the-team-section .container .team-member .imgContainer {
+    width: 50%;
+}
+.meet-the-team-section .container .team-member .imgContainer img {
+    width: 75%;
+    padding-left: 20px;
+    height: 100%;
+    padding: 20px;
+}
+.meet-the-team-section .container .team-member .info {
+    width: 50%;
+}
+.meet-the-team-section .container .team-member .info p {
+    margin-top: 8%;
+    padding-left: 10%;
+    padding-right: 15%;
+    color: rgb(163, 163, 163);
+    font-family: 'Ysabeau Infant', sans-serif;
+}
+.meet-the-team-section .container .team-member .info h3 {
+    padding-top: 5%;
+    font-family: 'Tangerine', cursive;
+    font-size: 45px;
+    color: rgb(163, 163, 163);
+}
+.bookPage {
+    height: 100vh;
+    
+    background-image: url(images/bookBackgroud.webp);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@media screen and (max-width: 892px) {
+  
+   
+    .welcomeSection nav ul li a {
+        font-size: 10px;
+    }   
+    .welcomeSection h1 {
+        font-size: 45px;
+    }
+    .welcomeSection .aboutSection {
+        height: 180px;
+        
+        
+    }
+    .welcomeSection .aboutSection .infoSection p {
+        font-size: 13px;
+    }
+    .welcomeSection .aboutSection .infoSection p + p {
+        padding-top: 3px;
+    }
+    .welcomeSection .aboutSection .infoSection .hide {
+        display: none;
+    }
+    .welcomeSection .aboutSection .infoSection .show {
+        display: unset;
+    }
+    .welcomeSection .aboutSection .infoSection h2 {
+        padding: 10px 0px 5px 0px;
+    
+        font-family: 'Tangerine', cursive;
+        font-size: 30px;
+    }
+    .welcomeSection .aboutSection .infoSection {
+        font-family: 'Ysabeau Infant', sans-serif;
+        width: 50%;
+        text-align: unset;
+        
+    }
+    .welcomeSection .aboutSection .imgSection img {
+        width: 90%;
+        
+        height: 90%;
+        
+        
+    }
+    .welcomeSection .serviceSection {
+        height: 190px;
+    }
+    .welcomeSection .serviceSection .infoSection h2 {
+        padding: 10px 0px 5px 0px;
+        font-size: 30px;
+    }
+    .welcomeSection .serviceSection .infoSection ul  {
+        font-size: 13px;
+    }
+    .welcomeSection .serviceSection .infoSection p {
+        font-size: 13px;
+    }
+    .welcomeSection .serviceSection .imgSection img {
+        width: 95%;
+        padding-left: 5%;
+        padding: 20px;
+        height: 90%;
+    }
+    .welcomeSection .meetSection {
+        height: 190px;
+     
+    }
+    .welcomeSection .meetSection .infoSection h2 {
+       
+        font-size: 30px;
+    }
+    .welcomeSection .meetSection .infoSection p {
+        font-size: 13px;
+        
+    }
+    .welcomeSection .meetSection .imgSection img {
+        width: 100%;
+        padding-top: 15%;
+        height: 90%;
+        
+    }  
+    .welcomeSection .contactSection {
+        height: 130px;
+    }
+    .medaLinks {
+        font-size: 13px;
+        
+        
+    }
+    span {
+        
+        font-size: 9px; 
+        
+    }
+    .map {
+        font-size: 9px;
+        
+        
+    }
+    .welcomeSection .contactSection .infoSection .address p {
+      font-size: 10px;
+    }
+    .welcomeSection {
+        min-height: 1000px;
+    
+    }
+    .about {
+        height: 900px;
+        background-image: unset;
+        background-color: rgba(20, 20, 20, 0.877);
+    }
+    .about .aboutContainer {
+        height: 900px;
+        width: 100%;
+        
+       margin-left: unset;
+       padding-right: unset;
+       color: rgb(163, 163, 163);
+       text-align: center;
+    }
+    .servicesPage {
+        min-height: 1800px;
+        background-image: unset;
+        background-color: rgba(20, 20, 20, 0.877);
+        
+        
+    }
+    .servicesPage .servicesContainer {
+        
+        width: 100%;
+        padding-left: unset;
+    }
+    .meet-the-team-section .container h2 {
+        
+        font-size: 35px;
+        
+        padding: 10px;
+    }
+    .meet-the-team-section .container .team-member .info h3 {
+      
+        font-size: 25px;
+        
+    }
+    .meet-the-team-section .container {
+        
+        font-size: 12px;
+        
+        
+    }
+    .meet-the-team-section .container .team-member .imgContainer img {
+        width: 100%;
+        padding-left: 20px;
+        height: 90%;
+        padding: 10px;
+    }
+
+}
+.bookPage p {
+    text-align: center;
+    padding-top: 30px;
+}
+.bookPage p a {
+    color: rgb(163, 163, 163);
+    text-decoration: none;
+    
+   
+    
+}
+.booking-form {
+    max-width: 600px;
+    margin-left: 45px;
+    color: rgb(163, 163, 163);
+    padding: 20px;
+    
+    border-radius: 5px;
+  }
+  
+  .booking-form h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: 'Tangerine', cursive;
+    font-size: 65px;
+  }
+  
+  .booking-form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .booking-form input[type="text"],
+  .booking-form input[type="email"],
+  .booking-form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    
+  }
+  
+  .booking-form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #4c93af;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .booking-form input[type="submit"]:hover {
+    background-color: #4c93af;
+  }
+ 
+  @media screen and (max-width: 892px) {
+  
+   
+    .welcomeSection nav ul li a {
+        font-size: 10px;
+    }   
+    .welcomeSection h1 {
+        font-size: 45px;
+    }
+    .welcomeSection .aboutSection {
+        height: 180px;
+        
+        
+    }
+    .welcomeSection .aboutSection .infoSection p {
+        font-size: 13px;
+    }
+    .welcomeSection .aboutSection .infoSection p + p {
+        padding-top: 3px;
+    }
+    .welcomeSection .aboutSection .infoSection .hide {
+        display: none;
+    }
+    .welcomeSection .aboutSection .infoSection .show {
+        display: unset;
+    }
+    .welcomeSection .aboutSection .infoSection h2 {
+        padding: 10px 0px 5px 0px;
+    
+        font-family: 'Tangerine', cursive;
+        font-size: 30px;
+    }
+    .welcomeSection .aboutSection .infoSection {
+        font-family: 'Ysabeau Infant', sans-serif;
+        width: 50%;
+        text-align: unset;
+        
+    }
+    .welcomeSection .aboutSection .imgSection img {
+        width: 90%;
+        
+        height: 90%;
+        
+        
+    }
+    .welcomeSection .serviceSection {
+        height: 190px;
+    }
+    .welcomeSection .serviceSection .infoSection h2 {
+        padding: 10px 0px 5px 0px;
+        font-size: 30px;
+    }
+    .welcomeSection .serviceSection .infoSection ul  {
+        font-size: 13px;
+    }
+    .welcomeSection .serviceSection .infoSection p {
+        font-size: 13px;
+    }
+    .welcomeSection .serviceSection .imgSection img {
+        width: 95%;
+        padding-left: 5%;
+        padding: 20px;
+        height: 90%;
+    }
+    .welcomeSection .meetSection {
+        height: 190px;
+     
+    }
+    .welcomeSection .meetSection .infoSection h2 {
+       
+        font-size: 30px;
+    }
+    .welcomeSection .meetSection .infoSection p {
+        font-size: 13px;
+        
+    }
+    .welcomeSection .meetSection .imgSection img {
+        width: 100%;
+        padding-top: 15%;
+        height: 90%;
+        
+    }  
+    .welcomeSection .contactSection {
+        height: 130px;
+    }
+    .medaLinks {
+        font-size: 13px;
+        
+        
+    }
+    span {
+        
+        font-size: 9px; 
+        
+    }
+    .map {
+        font-size: 9px;
+        
+        
+    }
+    .welcomeSection .contactSection .infoSection .address p {
+      font-size: 10px;
+    }
+    .welcomeSection {
+        min-height: 1000px;
+    
+    }
+    .about {
+        height: 900px;
+        background-image: unset;
+        background-color: rgba(20, 20, 20, 0.877);
+    }
+    .about .aboutContainer {
+        height: 900px;
+        width: 100%;
+        
+       margin-left: unset;
+       padding-right: unset;
+       color: rgb(163, 163, 163);
+       text-align: center;
+    }
+    .servicesPage {
+        min-height: 1800px;
+        background-image: unset;
+        background-color: rgba(20, 20, 20, 0.877);
+        
+        
+    }
+    .servicesPage .servicesContainer {
+        
+        width: 100%;
+        padding-left: unset;
+    }
+    .meet-the-team-section .container h2 {
+        
+        font-size: 35px;
+        
+        padding: 10px;
+    }
+    .meet-the-team-section .container .team-member .info h3 {
+      
+        font-size: 25px;
+        
+    }
+    .meet-the-team-section .container {
+        
+        font-size: 12px;
+        
+        
+    }
+    .meet-the-team-section .container .team-member .imgContainer img {
+        width: 100%;
+        padding-left: 20px;
+        height: 90%;
+        padding: 10px;
+    }
+    .bookPage {
+        height: 800px;
+        
+        background-image: url(images/bookBackgroud.webp);
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+}

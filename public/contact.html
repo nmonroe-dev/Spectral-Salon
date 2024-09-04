@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script
+      src="https://kit.fontawesome.com/0618b71a39.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ysabeau+Infant:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Book Online | Spectral Salon</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="bookPage">
+      <div class="booking-form">
+        <h2>Book Online</h2>
+
+        <!-- Form structure with comments where you'll add backend & JS later -->
+        <form action="" method="POST">
+          <!-- Add the backend processing later -->
+
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="service">Select Service:</label>
+          <select id="service" name="service" required>
+            <option value="Blonding">Blonding</option>
+            <option value="Hair cut & Style">Hair cut & Style</option>
+            <option value="NBR Extensions">NBR Extensions</option>
+            <option value="Tape in Extensions">Tape in Extensions</option>
+            <option value="Beaded weft Extensions">
+              Beaded weft Extensions
+            </option>
+            <option value="Bridal Services">Bridal Services</option>
+            <option value="Hair Coloring">Hair Coloring</option>
+            <option value="Hair Treatment">Hair Treatment</option>
+            <option value="Men's Grooming">Men's Grooming</option>
+          </select>
+
+          <label for="stylist">Select Stylist:</label>
+          <select id="stylist" name="stylist" required>
+            <option value="Emily Johnson">Emily Johnson</option>
+            <option value="Michael Rodriguez">Michael Rodriguez</option>
+            <option value="Sophia Lee">Sophia Lee</option>
+            <option value="David Martinez">David Martinez</option>
+          </select>
+
+          <label for="date">Select Date:</label>
+          <input id="date" type="date" name="date" required />
+
+          <!-- Placeholder for the button, replace this with the actual functionality later -->
+          <input type="button" value="Book Now" />
+        </form>
+
+        <p><a href="index.html">Home</a></p>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>

@@ -420,16 +420,112 @@ hr {
 }
 .bookPage {
     height: 100vh;
-    
+    display: flex;
     background-image: url(images/bookBackgroud.webp);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}
-@media screen and (max-width: 892px) {
-  
+  }
+  .calendarContainer {
+    width: 50%; 
+    padding: 20px;
+    text-align: center;
+  }
+  #calendar {
+    max-width: 65%;
+    height: 60%; 
+    margin: 0 auto;
+    color: rgb(122, 113, 113);
+    font-family: 'Tangerine', cursive;
+    font-size: 15px;
+  }
+  .calendarContainer h1 {
+    color: rgb(163, 163, 163); 
+    font-family: 'Tangerine', cursive;
+    font-size: 65px;
+    margin-bottom: 10px;
+    
+  }
+  #current-date {
+    color: rgb(122, 113, 113);
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-family: 'Tangerine', cursive;
+  }
+  .fc .fc-button {
+    font-size: 0.7em;
+  }
+  .fc .fc-button, .fc-icon {
+    text-align: center;
+    display: inline;
    
+  }
+
+
+@media screen and (max-width: 1136px) {
+    .fc .fc-button {
+     font-size: 0.4em;
+    }
+}
+@media screen and (max-width: 982px) {
+    .fc .fc-button {
+     font-size: 0.3em;
+    }
+}
+@media screen and (max-width: 982px) {
+    .bookPage {
+        flex-direction: column; 
+        height: 1200px; 
+    }
+    .calendarContainer,
+    .booking-form {
+    width: 100%;
+    padding: 10px;
+    }
+    .calendarContainer h1 {
+        font-size: 45px; /* Smaller font for mobile */
+      }
+    
+      #current-date {
+        font-size: 18px;
+      }
+      .booking-form button {
+        width: 100%;
+    
+      }
+
+
+}
+
+
+@media screen and (max-width: 894px) {
+    .bookPage {
+        flex-direction: column;
+        height: 1200px;  
+    }
+
+
+  
+    .calendarContainer,
+    .booking-form {
+    width: 100%;
+    padding: 10px;
+    }
+    .calendarContainer h1 {
+        font-size: 45px; /* Smaller font for mobile */
+      }
+    
+      #current-date {
+        font-size: 18px;
+      }
+      .booking-form button {
+        width: 100%;
+    
+      }
+
+
+
     .welcomeSection nav ul li a {
         font-size: 10px;
     }   
@@ -597,49 +693,55 @@ hr {
     
 }
 .booking-form {
-    max-width: 600px;
-    margin-left: 45px;
+    width: 50%;
+   
+    text-align: left; 
     color: rgb(163, 163, 163);
     padding: 20px;
-    
     border-radius: 5px;
+    display: flex;
+    flex-direction: column; 
+    
   }
-  
   .booking-form h2 {
-    margin-bottom: 20px;
+    margin-bottom: 20%;
     text-align: center;
     font-family: 'Tangerine', cursive;
     font-size: 65px;
   }
   
   .booking-form label {
-    display: block;
     margin-bottom: 10px;
+    text-align: left; 
+    font-weight: bold;
   }
   
   .booking-form input[type="text"],
   .booking-form input[type="email"],
   .booking-form select {
-    width: 100%;
+    width: 100%; 
     padding: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    
   }
-  
-  .booking-form input[type="submit"] {
-    width: 100%;
+  .booking-form button {
+    width: 60%;
     padding: 10px;
-    background-color: #4c93af;
+    background-color: #264855;
     color: white;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     margin-top: 10px;
+   
   }
+
   
   .booking-form input[type="submit"]:hover {
+    background-color: #4c93af;
+  }
+  .booking-form button:hover {
     background-color: #4c93af;
   }
  
@@ -800,13 +902,24 @@ hr {
         padding: 10px;
     }
     .bookPage {
-        height: 800px;
-        
-        background-image: url(images/bookBackgroud.webp);
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
+        flex-direction: column;
+        height: 1200px; 
     }
+
+
+  
+    .calendarContainer,
+    .booking-form {
+    width: 100%;
+    padding: 10px;
+    }
+    .calendarContainer h1 {
+        font-size: 45px; /* Smaller font for mobile */
+      }
+    
+      #current-date {
+        font-size: 18px;
+      }
+
 
 }

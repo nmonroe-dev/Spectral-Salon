@@ -17,7 +17,7 @@ app.use(express.urlencoded({extended: true}));
 MongoClient.connect(mongoUrl)
 .then(client => {
     console.log("Connected to Mongo");
-    const db = client.db("HS1");
+    const db = client.db("HS2");
     const collections = db.collection("bookings");
 
 
